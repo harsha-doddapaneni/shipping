@@ -21,4 +21,3 @@ WORKDIR /opt/shipping
 COPY --from=build /opt/shipping/target/shipping-*.jar shipping.jar
 
 CMD [ "java", "-Xmn256m", "-Xmx768m", "-jar", "shipping.jar" ]
-          
