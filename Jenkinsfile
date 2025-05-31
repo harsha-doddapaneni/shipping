@@ -13,5 +13,3 @@ if( ! env.BRANCH_NAME.equalsIgnoreCase('main')){
 else{
     echo "Proceed with CR or NON-PROD pipeline"
 }
-
-                                      
